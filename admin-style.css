@@ -1,0 +1,170 @@
+.bed-wrap {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bed-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.bed-tabs {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.bed-tab {
+    padding: 10px 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+}
+
+.bed-tab.active {
+    border-bottom: 2px solid #0073aa;
+    font-weight: bold;
+}
+
+.bed-tab:hover {
+    background: #f1f1f1;
+}
+
+.bed-count {
+    background: #0073aa;
+    color: #fff;
+    border-radius: 12px;
+    padding: 2px 8px;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.bed-content {
+    padding: 20px;
+}
+
+.bed-tab-content {
+    display: none;
+}
+
+.bed-tab-content.active {
+    display: block;
+}
+
+.bed-card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.bed-field {
+    margin-bottom: 20px;
+}
+
+.bed-field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.bed-input {
+    width: 100%;
+    max-width: 300px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.bed-button {
+    background: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.bed-button:hover {
+    background: #005177;
+}
+
+.bed-button-danger {
+    background: #d63638;
+}
+
+.bed-button-danger:hover {
+    background: #b32d2e;
+}
+
+.bed-button-small {
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.bed-status {
+    margin-left: 10px;
+    color: #0073aa;
+    font-size: 14px;
+}
+
+.bed-last-sync {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.bed-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.bed-list-item {
+    background: #e0e0e0;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.bed-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.bed-table th,
+.bed-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.bed-table th {
+    background: #f1f1f1;
+    cursor: pointer;
+}
+
+.bed-table th:hover {
+    background: #e0e0e0;
+}
+
+.bed-table tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.bed-empty {
+    font-style: italic;
+    color: #777;
+}
+
+.bed-actions {
+    margin-bottom: 20px;
+}
